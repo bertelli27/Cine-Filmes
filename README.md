@@ -1,53 +1,66 @@
-🎬 CINE FILMES
-CINE FILMES é um projeto de site estático desenvolvido com HTML e CSS que apresenta os principais filmes em cartaz, detalhes dos cinemas em Curitiba e uma interface para o público avaliar sua experiência.
+# 🎬 CINE FILMES
 
-🌐 Funcionalidades
-Página inicial
-Exibe os filmes em cartaz com pôsteres clicáveis que redirecionam para suas páginas individuais contendo sinopses e trailers.
+**CINE FILMES** é um projeto de site estático desenvolvido com HTML e CSS que apresenta os principais filmes em cartaz, detalhes dos cinemas em Curitiba e uma interface para o público avaliar sua experiência.
 
-Páginas de filmes
-Cada filme possui sua própria página com:
+---
 
-  Título e pôster.
-  Sinopse.
-  Trailer do YouTube incorporado.
+## 🌐 Funcionalidades
 
-Filmes incluídos:
+### 📌 Página Inicial (`index.html`)
+Exibe os filmes em cartaz com pôsteres clicáveis que redirecionam para suas páginas individuais contendo:
 
-  Venom 3.
-  Gladiador II.
-  Terrifier 3.
-  Robô Selvagem.
-  Todo Tempo que Temos.
-  Operação Natal.
+- Título e pôster  
+- Sinopse  
+- Trailer do YouTube incorporado
 
-Página de cinemas
+### 🎥 Páginas de Filmes
+Cada filme possui sua própria página com conteúdo detalhado:
+
+- **Venom 3**  
+- **Gladiador II**  
+- **Terrifier 3**  
+- **Robô Selvagem**  
+- **Todo Tempo que Temos**  
+- **Operação Natal**
+
+### 🏢 Página de Cinemas (`cinemas2.html`)
 Lista os principais cinemas de Curitiba com:
 
-  -Nome e descrição
-  -Mapa interativo do Google Maps
+- Nome e descrição  
+- Mapa interativo do Google Maps
 
-Página de avaliação (form.html)
-Um formulário completo para os usuários avaliarem:
+### 📝 Página de Avaliação (`form.html`)
+Formulário completo para os usuários avaliarem:
 
-  -Filme assistido
-  -Qualidade do filme
-  -Conforto do cinema
-  -Atendimento
-  -Preço do ingresso
-  -Recomendação
+- Filme assistido  
+- Qualidade do filme  
+- Conforto do cinema  
+- Atendimento  
+- Preço do ingresso  
+- Recomendação
 
-🎨 Estilo
-Cores predominantes: preto, roxo e branco
-Layout responsivo com design amigável para dispositivos móveis
-Estilo unificado entre as páginas com cabeçalho e navegação comuns
+---
 
-📌 Observações
-Este projeto é puramente estático. Não há backend para processar o formulário.
-O objetivo principal é a apresentação visual e navegação informativa.
+## 🎨 Estilo
 
-✨ Autores
+- **Cores predominantes:** preto, roxo e branco  
+- **Layout responsivo:** adaptado para dispositivos móveis  
+- **Estética consistente:** cabeçalho e navegação padronizados em todas as páginas  
 
-Projeto acadêmico desenvolvido por Bruno Bertelli Rabelo e André Luiz Camargo dos Santos.
+---
 
-Feito para fins educacionais.
+## 📌 Observações
+
+- Este é um **projeto estático** — não há backend para processar o formulário.  
+- O foco principal é na **apresentação visual** e **experiência de navegação**.  
+
+---
+
+## ✨ Autores
+
+Projeto acadêmico desenvolvido por:
+
+- **Bruno Bertelli Rabelo**  
+- **André Luiz Camargo dos Santos**
+
+Feito com ❤️ para fins educacionais.
