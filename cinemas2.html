@@ -1,0 +1,159 @@
+<html>
+<head>
+    
+    <title>Cinemas em Curitiba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #333;
+            text-align: center; /* Centraliza o texto */
+        }
+
+        header {
+            background-color: #4B0082;
+            color: white;
+            padding: 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .cinemas-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centraliza os itens */
+            gap: 20px;
+        }
+
+        .cinema {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 45%; /* Alinha as caixas de cinema em duas colunas */
+            padding: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .cinema:hover {
+            transform: scale(1.05); /* Efeito de hover */
+        }
+
+        .cinema h3 {
+            margin-top: 0;
+            color: #4B0082; /* Cor roxa */
+        }
+
+        .cinema p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .cinemas-list {
+                flex-direction: column;
+                align-items: center; /* Centraliza as caixas no mobile */
+            }
+
+            .cinema {
+                width: 80%; /* Ajusta para ocupar mais espaço no mobile */
+            }
+
+            .map-container iframe {
+                height: 200px; /* Ajusta o tamanho do mapa no mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CINE FILMES</h1>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+                <li><a href="cinemas2.html">Cinemas</a></li>
+                <li><a href="form.html">Avaliação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Cinemas em Curitiba</h2>
+
+        <div class="cinemas-list">
+            <div class="cinema">
+                <h3>Shopping Jockey Plaza</h3>
+				<p>Shopping de dois andares com lojas internacionais, cinema, restaurantes gourmet e fast-food.</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.5566898909777!2d-49.2150244!3d-25.4277333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce58cea5ec053%3A0x5323193c213574c2!2sShopping%20Est%C3%A1cio!5e0!3m2!1spt-BR!2sbr!4v1631881796544!5m2!1spt-BR!2sbr" 
+                    allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div class="cinema">
+                <h3>Cinemark Shopping Mueller</h3>
+                <p>O Cinemark do Shopping Mueller é uma excelente opção para quem procura qualidade e conforto em suas sessões de cinema, com salas modernas e variadas opções de filmes.</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.492643736037!2d-49.273739!3d-25.423451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5cd98609869:0x1acd61ce7eca0e94!2sShopping+Mueller!5e0!3m2!1spt-BR!2sbr!4v1687340204820!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+           
+</body>
+</html>

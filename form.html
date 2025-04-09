@@ -1,0 +1,239 @@
+<html>
+<head>
+    <title>Avaliação de Cinema - Filmes em Cartaz</title>
+    <style>
+        body {
+            font-family: Segoe UI, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            background-color: #4B0082;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .form-container {
+            margin: 40px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #4B0082;
+        }
+
+        label {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            display: block;
+            color: #333;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+            background-color: #f9f9f9;
+        }
+
+        input[type="radio"] {
+            width: auto;
+        }
+
+        .question-container {
+            margin-bottom: 20px;
+        }
+
+        .question-container p {
+            margin: 0;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .rating {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .rating input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .form-container button {
+            background-color: #4B0082;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: block;
+            width: 100%;
+        }
+
+        .form-container button:hover {
+            background-color: #6a0dad;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AVALIÇÃO DOS FILMES</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cinemas2.html">Cinemas</a></li>
+                <li><a href="form.html">Avaliação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-container">
+        <h2>Avalie o Cinema e o Filme</h2>
+        <form action="#" method="POST">
+            <div class="question-container">
+                <p>1. Qual filme você assistiu?</p>
+                <select name="movie_selection" required>
+                    <option value="gladiador_2">Gladiador 2</option>
+                    <option value="terrifier_3">Terrifier 3</option>
+                    <option value="robo_selvagem">Robo Selvagem</option>
+                    <option value="operacao_natal">Operação Natal</option>
+                    <option value="venom_3">Venom 3</option>
+                    <option value="todo_tempo_que_temos">Todo Tempo Que Temos</option>
+                </select>
+            </div>
+
+            <div class="question-container">
+                <p>2. Como você avaliaria a qualidade do filme que assistiu?</p>
+                <div class="rating">
+                    <label>
+                        <input type="radio" name="movie_quality" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="movie_quality" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="movie_quality" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="movie_quality" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="movie_quality" value="5"> 5
+                    </label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <p>3. O ambiente do cinema estava confortável?</p>
+                <div class="rating">
+                    <label>
+                        <input type="radio" name="cinema_comfort" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="cinema_comfort" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="cinema_comfort" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="cinema_comfort" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="cinema_comfort" value="5"> 5
+                    </label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <p>4. Como você avalia a qualidade do atendimento no cinema?</p>
+                <div class="rating">
+                    <label>
+                        <input type="radio" name="service_quality" value="1"> 1
+                    </label>
+                    <label>
+                        <input type="radio" name="service_quality" value="2"> 2
+                    </label>
+                    <label>
+                        <input type="radio" name="service_quality" value="3"> 3
+                    </label>
+                    <label>
+                        <input type="radio" name="service_quality" value="4"> 4
+                    </label>
+                    <label>
+                        <input type="radio" name="service_quality" value="5"> 5
+                    </label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <p>5. Você achou o preço acessível?</p>
+                <select name="ticket_value">
+                    <option value="muito_ruim">Muito ruim</option>
+                    <option value="ruim">Ruim</option>
+                    <option value="regular">Regular</option>
+                    <option value="bom">Bom</option>
+                    <option value="muito_bom">Muito bom</option>
+                </select>
+            </div>
+
+            <div class="question-container">
+                <p>6. Você recomendaria esse filme para seus amigos?</p>
+                <select name="recommendation">
+                    <option value="nao">Não</option>
+                    <option value="talvez">Talvez</option>
+                    <option value="sim">Sim</option>
+                </select>
+            </div>
+
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </section>
+
+</body>
+</html>
