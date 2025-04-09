@@ -63,4 +63,4 @@ Projeto acadêmico desenvolvido por:
 - **Bruno Bertelli Rabelo**  
 - **André Luiz Camargo dos Santos**
 
-Feito com ❤️ para fins educacionais.
+Feito para fins educacionais.
