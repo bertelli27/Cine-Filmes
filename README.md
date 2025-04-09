@@ -7,31 +7,31 @@ Exibe os filmes em cartaz com pôsteres clicáveis que redirecionam para suas p�
 
 Páginas de filmes
 Cada filme possui sua própria página com:
-  Título e pôster
-  Sinopse
-  Trailer do YouTube incorporado
+  -Título e pôster
+  -Sinopse
+  -Trailer do YouTube incorporado
 
 Filmes incluídos:
-  Venom 3
-  Gladiador II
-  Terrifier 3
-  Robô Selvagem
-  Todo Tempo que Temos
-  Operação Natal
+  -Venom 3
+  -Gladiador II
+  -Terrifier 3
+  -Robô Selvagem
+  -Todo Tempo que Temos
+  -Operação Natal
 
 Página de cinemas
 Lista os principais cinemas de Curitiba com:
-  Nome e descrição
-  Mapa interativo do Google Maps
+  -Nome e descrição
+  -Mapa interativo do Google Maps
 
 Página de avaliação (form.html)
 Um formulário completo para os usuários avaliarem:
-  Filme assistido
-  Qualidade do filme
-  Conforto do cinema
-  Atendimento
-  Preço do ingresso
-  Recomendação
+  -Filme assistido
+  -Qualidade do filme
+  -Conforto do cinema
+  -Atendimento
+  -Preço do ingresso
+  -Recomendação
 
 🎨 Estilo
 Cores predominantes: preto, roxo e branco
